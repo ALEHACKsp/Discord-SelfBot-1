@@ -1,0 +1,11 @@
+*.* text eol=lf
+
+*.cmd eol=crlf
+*.bat eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.db binary
+*.sqlite binary
