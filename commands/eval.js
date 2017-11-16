@@ -23,10 +23,6 @@ exports.run = (message, args) => {
   }
 };
 
-exports.config = {
-  enabled: true
-};
-
 exports.help = {
   name: 'eval',
   description: 'Evaluates the given JavaScript expression.'

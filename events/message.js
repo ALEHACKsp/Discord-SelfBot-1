@@ -27,8 +27,5 @@ module.exports = message => {
                  + `\nCHANNEL> ${message.channel.name} - ${message.channel.id}`;
   message.client.log.console(commandLog);
 
-  if (!command.config.enabled) {
-    return message.client.log.console('DISABLED>');
-  }
   command.run(message, args);
 };

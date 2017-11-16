@@ -14,10 +14,6 @@ exports.run = async message => {
   }
 };
 
-exports.config = {
-  enabled: true
-};
-
 exports.help = {
   name: 'ping',
   description: 'Pings Discord gateway to find the response time.'

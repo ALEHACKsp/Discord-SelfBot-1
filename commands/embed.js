@@ -13,10 +13,6 @@ exports.run = async message => {
   }
 };
 
-exports.config = {
-  enabled: true
-};
-
 exports.help = {
   name: 'embed',
   description: 'Sends the message as an embed.'
