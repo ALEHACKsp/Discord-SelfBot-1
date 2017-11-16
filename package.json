@@ -1,6 +1,6 @@
 {
   "name": "discord-selfbot",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "A Discord Self Bot made with love, using Discord.js",
   "main": "self.js",
   "scripts": {
