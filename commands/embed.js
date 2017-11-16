@@ -4,9 +4,9 @@
  * @license MIT
  */
 
-exports.run = async message => {
+exports.run = async (message, args) => {
   try {
-    await message.edit({ embed: { description: message.content } });
+    await message.edit({ embed: { description: args.join(' ') } });
   }
   catch (e) {
     message.client.log.error(e);
