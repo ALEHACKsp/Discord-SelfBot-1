@@ -10,12 +10,9 @@
  * @returns {void}
  */
 module.exports = Client => {
-  Client.user.setPresence({
-    status: Client.config.status,
-    game: {
-      name: Client.config.game,
-      type: 0
-    }
+  Client.user.setStatus(Client.config.status);
+  Client.user.setActivity(Client.config.activity.name, {
+    type: Client.config.activity.type
   });
 
   let readyMessage = `\nClient ID> ${Client.credentials.clientID}`

@@ -1,5 +1,8 @@
 {
   "prefix": "/",
   "status": "online",
-  "game": ""
+  "activity": {
+    "name": "",
+    "type": ""
+  }
 }
