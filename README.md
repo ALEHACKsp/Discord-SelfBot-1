@@ -9,6 +9,11 @@ A Discord Self Bot made with ❤, using discord.js
 Using a Discord user account (your own Discord account) as a bot,
 that **only responds to your own commands**, is a self bot.
 
+```diff
+- DISCLAIMER -
+DON'T come to me if you get banned for using a self bot.
+```
+
 ## Get started
 
 *Make sure you have Node.js > v8 installed.*
