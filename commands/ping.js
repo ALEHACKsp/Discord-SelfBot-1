@@ -7,7 +7,7 @@
 exports.run = async message => {
   try {
     await message.edit('Pong!');
-    await message.edit(`Time: ${message.editedTimestamp - message.createdTimestamp}ms`);
+    await message.edit(`Response Time: ${message.editedTimestamp - message.createdTimestamp}ms`);
   }
   catch (e) {
     message.client.log.error(e);
@@ -16,5 +16,5 @@ exports.run = async message => {
 
 exports.help = {
   name: 'ping',
-  description: 'Pings Discord gateway to find the response time.'
+  description: 'Checks the response time.'
 };
